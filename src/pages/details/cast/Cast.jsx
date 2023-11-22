@@ -21,6 +21,7 @@ const Cast = ({ data, loading }) => {
     };
     return (
         <div className="castSection">
+                <div className="opacity-layer"></div>
             <ContentWrapper>
                 <div className="sectionHeading">Top Cast</div>
                 {!loading ? (
