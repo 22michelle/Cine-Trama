@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import "./style.scss";
 
-import useFetch from "../../../hooks/useFetch";
+import useFetch from "../../../hooks/UseFetch";
 
 import Img from "../../../components/lazyLoadImage/Img";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
@@ -41,8 +41,8 @@ const HeroBanner = () => {
         <div className="heroBannerContent">
           <span className="title">Welcome.</span>
           <span className="subTitle">
-            Embark on a journey to uncover countless stories, limitless
-            inspiration, and a world of possibilities. Start exploring now!
+            Explore the magic of movies and series. Your next adventure awaits.
+            Start your journey now!
           </span>
           <div className="searchInput">
             <input
